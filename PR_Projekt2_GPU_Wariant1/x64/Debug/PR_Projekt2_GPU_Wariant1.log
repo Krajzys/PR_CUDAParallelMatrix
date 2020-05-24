@@ -1,0 +1,17 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\krajz\source\repos\PR_Projekt2_GPU_Wariant1\PR_Projekt2_GPU_Wariant1>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\bin\nvcc.exe" -gencode=arch=compute_30,code=\"sm_30,compute_30\" --use-local-env -ccbin "D:\Programy\Microsoft Visual 2019\VC\Tools\MSVC\14.26.28801\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.2\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\krajz\source\repos\PR_Projekt2_GPU_Wariant1\PR_Projekt2_GPU_Wariant1\kernel.cu" 
+C:/Users/krajz/source/repos/PR_Projekt2_GPU_Wariant1/PR_Projekt2_GPU_Wariant1/kernel.cu(210): warning : variable "c" was declared but never referenced
+            detected during instantiation of "void matrixMulCUDA3<BLOCK_SIZE>(float *, float *, float *, int, int, int, int) [with BLOCK_SIZE=16]" 
+  (561): here
+  
+C:/Users/krajz/source/repos/PR_Projekt2_GPU_Wariant1/PR_Projekt2_GPU_Wariant1/kernel.cu(210): warning : variable "c" was declared but never referenced
+            detected during instantiation of "void matrixMulCUDA3<BLOCK_SIZE>(float *, float *, float *, int, int, int, int) [with BLOCK_SIZE=32]" 
+  (565): here
+  
+C:/Users/krajz/source/repos/PR_Projekt2_GPU_Wariant1/PR_Projekt2_GPU_Wariant1/kernel.cu(210): warning : variable "c" was declared but never referenced
+            detected during instantiation of "void matrixMulCUDA3<BLOCK_SIZE>(float *, float *, float *, int, int, int, int) [with BLOCK_SIZE=8]" 
+  (569): here
+  
+  kernel.cu
+  PR_Projekt2_GPU_Wariant1.vcxproj -> C:\Users\krajz\source\repos\PR_Projekt2_GPU_Wariant1\x64\Debug\PR_Projekt2_GPU_Wariant1.exe
